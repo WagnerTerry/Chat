@@ -28,7 +28,7 @@ configurar um json para o typeorm - que trata do banco de dados
 - ormconfig.json
 
 - criando migrations
-  yarn typeorm migration:create -n CreateUsers
+  yarn typeorm migration:create -n CreateSettings
 - rodar migration com a QueryRunner ( criação de tabelas )
   yarn typeorm migration:run
 
