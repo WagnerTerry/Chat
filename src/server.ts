@@ -1,12 +1,4 @@
-// import 'reflect-metadata'
-import express from 'express'
-import { routes } from './routes'
+import { http } from './http'
+import "./websocket/client"
 
-import "./database"
-
-const app = express()
-
-app.use(express.json()) // habilitar o json na aplicação
-app.use(routes)
-
-app.listen(3333, () => console.log("server is running on port 3333"))
+http.listen(3333, () => console.log("server is running on port 3333"))

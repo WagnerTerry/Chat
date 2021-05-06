@@ -11,6 +11,10 @@ dependências
 - yarn add sqlite3
 - yarn add uuid
 - yarn add @types/uuid -D
+- yarn add socket.io // websocket
+- yarn add @types/socket.io -D
+- yarn add ejs
+- yarn add socket.io-client
 
 tsconfig.json {
 "strict": false // verificação a mais, nao verifica em desenvolvimento
